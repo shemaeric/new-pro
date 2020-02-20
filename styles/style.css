@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #F5F5F5 0%, #FFFFFF 100%);
+}
+
+.top-section{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+/* Style the header text */
+.top-section header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4A4A4A;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+/* style the paragraph that includes the texts */
+.about {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.center-items {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.item-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+/* Make sure that the responsiveness is across to all screens */
+@media screen and (max-width: 600px) {
+    .center-items {
+        display: inline;
+        padding-right: 1rem;
+    }
+    .item {
+        padding-left: 1rem;
+    }
+}
